@@ -45,7 +45,7 @@
   for (const [name,tag] of V) {
     const c = document.createElement('div'); c.className='card';
     c.innerHTML = `<h2>${name}</h2><div class="tag">${tag}</div>
-      <model-viewer src="${name}.glb" alt="67 ${name}" camera-controls touch-action="pan-y"
+      <model-viewer src="${name}.glb?v=2" alt="67 ${name}" camera-controls touch-action="pan-y"
         auto-rotate auto-rotate-delay="800" rotation-per-second="22deg"
         environment-image="neutral" exposure="1.0" shadow-intensity="0.6"
         camera-orbit="0deg 85deg 2.6m" min-camera-orbit="auto 0deg auto"
